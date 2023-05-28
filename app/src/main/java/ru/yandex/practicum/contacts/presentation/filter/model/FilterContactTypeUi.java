@@ -23,7 +23,7 @@ public class FilterContactTypeUi implements ListDiffInterface <FilterContactType
         return selected;
     }
     public boolean theSameAs(FilterContactTypeUi object){
-        return this.hashCode() == object.hashCode();
+        return this.getContactType() == object.getContactType();
     }
 
 
